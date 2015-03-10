@@ -2,6 +2,11 @@
 
 A [Liquid Filter](http://liquidmarkup.org/) to determine if a [Jekyll](http://jekyllrb.com/) Post has an excerpt to display and retrieve the excerpt to use on a list page for read more capability.
 
+## Installation
+
+This Liquid Filter is designed specifically for Jekyll. This plugin can be installed directly to the `_plugins/` directory by dropping the contents of the `lib` directory into the `_plugins` folder.
+
+See [documentation on installing Jekyll plugins](http://jekyllrb.com/docs/plugins/#installing-a-plugin) for more detailed instructions.
 
 ## Usage
 
