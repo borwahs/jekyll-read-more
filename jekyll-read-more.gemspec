@@ -1,6 +1,10 @@
+$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
+
+require 'jekyll-read-more/version'
+
 Gem::Specification.new do |gem_spec|
   gem_spec.name         = 'jekyll-read-more'
-  gem_spec.version      = '0.1.0'
+  gem_spec.version      = Jekyll::ReadMore::VERSION
   gem_spec.date         = '2015-03-09'
 
   gem_spec.summary      = 'A Liquid Filter to get an excerpt from a Jekyll Post.'
