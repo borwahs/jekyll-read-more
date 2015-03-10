@@ -4,6 +4,10 @@ A [Liquid Filter](http://liquidmarkup.org/) to determine if a [Jekyll](http://je
 
 ## Installation
 
+The easiest way to install this plugin is with RubyGems: `gem install jekyll-read-more`.
+
+You can see the gem on Ruby Gems: [jekyll-read-more](https://rubygems.org/gems/jekyll-read-more).
+
 This Liquid Filter is designed specifically for Jekyll. This plugin can be installed directly to the `_plugins/` directory by dropping the contents of the `lib` directory into the `_plugins` folder.
 
 See [documentation on installing Jekyll plugins](http://jekyllrb.com/docs/plugins/#installing-a-plugin) for more detailed instructions.
@@ -40,6 +44,12 @@ Example Usage:
     <p class="excerpt">
       {{ post.content | get_post_excerpt }}
     </p>
+    
+## Versioning
+
+The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
+
+* __0.1.0__ (2015-03-09): Initial release of gem.
 
 ## License
 
