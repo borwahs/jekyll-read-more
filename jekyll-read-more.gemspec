@@ -18,6 +18,10 @@ Gem::Specification.new do |gem_spec|
   gem_spec.files        = Dir["./**/*"].reject{|file| file =~ /\.\/(doc|pkg|spec|test)/}
   gem_spec.require_path = 'lib'
 
+  # Runtime Dependencies
   gem_spec.add_runtime_dependency 'liquid'
+
+  # Development Dependencies
+  gem_spec.add_development_dependency "rake"
   gem_spec.add_development_dependency 'jekyll'
 end
