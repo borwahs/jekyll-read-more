@@ -45,6 +45,17 @@ Example Usage:
       {{ post.content | get_post_excerpt }}
     </p>
     
+## Using Rake in Development
+
+The Read More project includes a Rake file if there is a need to create a custom packaged gem for local reuse.
+
+Available commands:
+
+* `rake build`
+* `rake install`
+* `rake uninstall`
+* `rake version`
+    
 ## Versioning
 
 The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
