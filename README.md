@@ -1,5 +1,7 @@
 # Read More Plugin for Jekyll
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-read-more.svg)](http://badge.fury.io/rb/jekyll-read-more)
+
 A [Liquid Filter](http://liquidmarkup.org/) to determine if a [Jekyll](http://jekyllrb.com/) Post has an excerpt to display and retrieve the excerpt to use on a list page for read more capability.
 
 ## Installation
