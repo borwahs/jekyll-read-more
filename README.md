@@ -60,6 +60,7 @@ Available commands:
 
 The version numbers of this project conform to [Semantic Versioning 2.0](http://semver.org/).
 
+* __0.1.3__ (2015-05-10): Fixes issue #6 caused by 0.1.1 release.
 * __0.1.2__ (2015-05-10): Fixes issue #5 around Gemspec date being hardcoded.
 * __0.1.1__ (2015-05-10): Fixes issue #1 and contains development improvements.
 * __0.1.0__ (2015-03-09): Initial release of gem.
