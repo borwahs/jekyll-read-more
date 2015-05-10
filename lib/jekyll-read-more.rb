@@ -1,2 +1,2 @@
-require 'jekyll-read-more/filter'
-require 'jekyll-read-more/version'
+require_relative 'jekyll-read-more/filter'
+require_relative 'jekyll-read-more/version'
