@@ -7,7 +7,7 @@ Gem::Specification.new do |gem_spec|
   # Essentials
   gem_spec.name         = 'jekyll-read-more'
   gem_spec.version      = Jekyll::ReadMore::VERSION
-  gem_spec.date         = '2015-03-09'
+  gem_spec.date         = Date.today.to_s
 
   # Details
   gem_spec.summary      = 'A Liquid Filter to get an excerpt from a Jekyll Post.'
