@@ -3,7 +3,7 @@
 # A Liquid Filter for Jekyll to check and retrieve
 # an excerpt from a post.
 #
-# https://github.com/borwahs/jekyll-post-excerpt
+# https://github.com/borwahs/jekyll-read-more
 #
 # Copyright (c) Rob Shaw, 2015
 # See readme.md for LICENSE information.
@@ -16,7 +16,15 @@ module Jekyll
       # uses the markdown format <!--- (three dashes)
       EXCERPT_BREAK_TAG = "<!---excerpt-break-->"
 
-      def post_contains_excerpt_tag?(post)
+      def post_contains_excerpt_tag(post)
+        if (!post)
+          return false
+        end
+
+        if (post.strip.empty?)
+          return false
+        end
+        
         post.include?(EXCERPT_BREAK_TAG)
       end
 

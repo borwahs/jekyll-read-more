@@ -20,16 +20,16 @@ _Please note that the tag has three dashes (-) after the bang (!). This is to su
 
 Two methods are provided via Liquid Filters:
 
-* post\_contains\_excerpt\_tag?
+* post\_contains\_excerpt\_tag
 * get\_post\_excerpt
 
-### post\_contains\_excerpt\_tag?
+### post\_contains\_excerpt\_tag
 
 Determines if the excerpt tag exists in the post. The return value is a boolean.
 
 Example Usage:
 
-    {% if post.content | post_should_be_truncated? %}
+    {% if post.content | post_contains_excerpt_tag %}
       <a href="{{ post.url }}">Read more →</a>
     {% endif %}
 
