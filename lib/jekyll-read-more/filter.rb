@@ -29,7 +29,7 @@ module Jekyll
       end
 
       def get_post_excerpt(post)
-        if !post_contains_excerpt_tag?(post)
+        if !post_contains_excerpt_tag(post)
           return post
         end
 
